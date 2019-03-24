@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="./css/03_style.css">
+</head>
+
+<body>
+
+    <!-- Adjacent: follow by a tag -->
+    <h2>Adjacent</h2>
+    <div>
+        <h3>h3 Headline</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, natus.</p>
+        <h2>h2 headline</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt placeat eligendi cumque, ducimus blanditiis eaque. Veritatis itaque ducimus aliquid labore facilis blanditiis natus expedita soluta laboriosam, quaerat sunt facere?</p>
+        <h3>h3 headline</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis perferendis eum sunt! Natus odit dolorum nostrum magni architecto alias nesciunt?</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- General: followed by a tag in same level -->
+    <h2>General</h2>
+    <div>
+        <h4>h4 Headline</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, natus.</p>
+        <h5>h2 headline</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt placeat eligendi cumque, ducimus blanditiis eaque. Veritatis itaque ducimus aliquid labore facilis blanditiis natus expedita soluta laboriosam, quaerat sunt facere?</p>
+        <h5>h3 headline</h5>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis perferendis eum sunt! Natus odit dolorum nostrum magni architecto alias nesciunt?</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt placeat eligendi cumque, ducimus blanditiis eaque. Veritatis itaque ducimus aliquid labore facilis blanditiis natus expedita soluta laboriosam, quaerat sunt facere?</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Child -->
+    <h2>Clild</h2>
+    <div class="child-comb">
+        <h4>h3 Headline</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, natus.</p>
+        <h5>h2 headline</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt placeat eligendi cumque, ducimus blanditiis eaque. Veritatis itaque ducimus aliquid labore facilis blanditiis natus expedita soluta laboriosam, quaerat sunt facere?</p>
+        <h5>h3 headline</h5>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis perferendis eum sunt! Natus odit dolorum nostrum magni architecto alias nesciunt?</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Decendent -->
+    <h2>Decendent</h2>
+    <div class="decendent-comb">
+        <h4>h3 Headline</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, natus.</p>
+        <h5>h2 headline</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt placeat eligendi cumque, ducimus blanditiis eaque. Veritatis itaque ducimus aliquid labore facilis blanditiis natus expedita soluta laboriosam, quaerat sunt facere?</p>
+        <h5>h3 headline</h5>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis perferendis eum sunt! Natus odit dolorum nostrum magni architecto alias nesciunt?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

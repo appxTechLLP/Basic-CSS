@@ -1,0 +1,26 @@
+/* Adjacent */
+
+h3+p {
+    color: blue;
+}
+
+
+/* General */
+
+h4~p {
+    color: red;
+}
+
+
+/* Child */
+
+.child-comb>p {
+    color: green
+}
+
+
+/* Decendent */
+
+.decendent-comb p {
+    color: palevioletred;
+}
