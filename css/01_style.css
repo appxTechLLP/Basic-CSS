@@ -1,0 +1,28 @@
+/* * {
+    font-family: 'Baloo Chettan', cursive;
+} */
+
+/* Tag Selector */
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    color: brown;
+    font-size: 70px;
+}
+
+#test-style {
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+}
+
+.heading {
+    font-size: 100px;
+}
+
+p span {
+    color: red;
+}

@@ -1,0 +1,47 @@
+/* Star Selector / Univarsal Selector */
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Tag Selector */
+
+
+
+#id-sel {
+    background: red;
+    font-family: 'Indie Flower', cursive;
+    color: green;
+}
+
+.cl-sel {
+    background: green;
+    color: #fff; 
+}
+
+h1 {
+    background: blue;
+    font-family: 'Baloo Chettan', cursive;
+    color: red;
+}
+
+/* Class Selector */
+.para-bg {
+    background: chocolate;
+    color: antiquewhite;
+}
+
+/* ID Selector */
+#unique {
+    color: rgb(20, 163, 220);
+}
+
+/* Attribute Selector */
+[disabled] {
+    border: 2px solid gold;
+    background: rgb(47, 255, 220);
+}
+
+input::placeholder {
+    color: red;
+}
+
